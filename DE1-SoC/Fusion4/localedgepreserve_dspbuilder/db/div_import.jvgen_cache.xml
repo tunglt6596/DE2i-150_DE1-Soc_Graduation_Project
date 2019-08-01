@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="div_import" family="Cyclone" style="SUPERSET"
+    fixed-name="true" temporary="false">
+    <instance version="8.0.0" decorated-name="div_import_GN">
+        <port name="clk" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="d" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="z" dir="Input"
+            vhdl-type="std_logic_vector(48-1 downto 0)" width="48" lowerbound="0"/>
+    </instance>
+    <source-file
+        name="C:\Users\TungLT\Desktop\Fusion4\DSPBuilder_localedgepreserve_import\div_import.entityimport" stamp="1552034797549"/>
+    <supersetport name="q" dir="Output"
+        vhdl-type="std_logic_vector(24-1 downto 0)" lowerbound="0"/>
+    <supersetport name="clk" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="d" dir="Input"
+        vhdl-type="std_logic_vector(24-1 downto 0)" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="z" dir="Input"
+        vhdl-type="std_logic_vector(48-1 downto 0)" lowerbound="0"/>
+</jvgen>

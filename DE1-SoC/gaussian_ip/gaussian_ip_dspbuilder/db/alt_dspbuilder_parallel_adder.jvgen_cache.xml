@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_parallel_adder" family="Cyclone"
+    style="COMPLEX" fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_parallel_adder_GNRFXUS4HJ">
+        <generic name="PIPELINE" value="1"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="DIRECTION" value="+"/>
+        <generic name="DATAWIDTH" value="16"/>
+        <generic name="NUMBER_INPUTS" value="25"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data0" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data1" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data10" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data11" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data12" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data13" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data14" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data15" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data16" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data17" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data18" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data19" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data2" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data20" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data21" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data22" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data23" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data24" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data3" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data4" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data5" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data6" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data7" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data8" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="data9" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(21-1 downto 0)" width="21" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_parallel_adder_GNRFXUS4HJ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SAdderSub.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <parameter-static name="PIPELINE" default="0" type="NATURAL"/>
+    <parameter-static name="MASKVALUE" default="1" type="STRING"/>
+    <parameter-static name="DIRECTION" default="+" type="STRING"/>
+    <parameter-static name="DATAWIDTH" default="8" type="POSITIVE"/>
+    <parameter-static name="NUMBER_INPUTS" default="2" type="POSITIVE"/>
+</jvgen>

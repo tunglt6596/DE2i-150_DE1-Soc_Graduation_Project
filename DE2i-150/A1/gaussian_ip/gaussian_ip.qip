@@ -1,0 +1,6 @@
+
+#QIP file for DSP Builder system gaussian_ip
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "gaussian_ip_dspbuilder/hdl" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "gaussian_ip_dspbuilder/hdl/gaussian_ip.qip" ]

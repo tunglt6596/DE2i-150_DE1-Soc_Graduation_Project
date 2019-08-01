@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_constant" family="Cyclone" style="COMPLEX"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNA4WR7CCY">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="11"/>
+        <generic name="BITPATTERN" value="00001100011"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(11-1 downto 0)" width="11" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNA4WR7CCY.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNRT4BCWLZ">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="9"/>
+        <generic name="BITPATTERN" value="000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNRT4BCWLZ.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNSVSRQZMI">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="8"/>
+        <generic name="BITPATTERN" value="11111111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNSVSRQZMI.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNQQLU6SNF">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="17"/>
+        <generic name="BITPATTERN" value="10000000000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNQQLU6SNF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNP7U2HOAO">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="9"/>
+        <generic name="BITPATTERN" value="011111111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNP7U2HOAO.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNZPNJMQE4">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000000010"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNZPNJMQE4.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNCWI5QDAD">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="16"/>
+        <generic name="BITPATTERN" value="0000000000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNCWI5QDAD.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNC5NOVIJT">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="8"/>
+        <generic name="BITPATTERN" value="00000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNC5NOVIJT.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNDEA2MM7Q">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="17"/>
+        <generic name="BITPATTERN" value="00000000000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNDEA2MM7Q.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNNIOISJL5">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="1010000101"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNNIOISJL5.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNIJE6VUO6">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0111100010"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNIJE6VUO6.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNWR35ZFKG">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="1010000010"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNWR35ZFKG.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNJC6E54BA">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0111100011"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNJC6E54BA.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNENUHZK52">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="1010000011"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNENUHZK52.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN3HHC36SK">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000100101"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN3HHC36SK.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNTHQFUUUC">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000000001"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNTHQFUUUC.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNA7AGW6YF">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="1010000001"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNA7AGW6YF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNLD7JS37T">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="6"/>
+        <generic name="BITPATTERN" value="100100"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(6-1 downto 0)" width="6" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNLD7JS37T.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN2I6BJOVH">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000100110"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN2I6BJOVH.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNHCJTKREU">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="6"/>
+        <generic name="BITPATTERN" value="000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(6-1 downto 0)" width="6" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNHCJTKREU.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNLSC6VFLT">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000100100"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNLSC6VFLT.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNRSDUIWRP">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="32"/>
+        <generic name="BITPATTERN" value="00000000000000000000000000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNRSDUIWRP.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN5FET4EJH">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="24"/>
+        <generic name="BITPATTERN" value="000110011001100110011001"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN5FET4EJH.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNIIAAYRYZ">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="24"/>
+        <generic name="BITPATTERN" value="000000000000000000110110"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNIIAAYRYZ.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNLUER2G5H">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="19"/>
+        <generic name="BITPATTERN" value="1001010111111111111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(19-1 downto 0)" width="19" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNLUER2G5H.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN5IRMZXKK">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN5IRMZXKK.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNWFCSDEFM">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="16"/>
+        <generic name="BITPATTERN" value="0000000000000001"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNWFCSDEFM.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNQE5XU76S">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0100000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNQE5XU76S.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNK57PM5EK">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0011111111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNK57PM5EK.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNSXLT2IGA">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="9"/>
+        <generic name="BITPATTERN" value="100000000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNSXLT2IGA.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNWN5Z2MHN">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="6"/>
+        <generic name="BITPATTERN" value="100101"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(6-1 downto 0)" width="6" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNWN5Z2MHN.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNVYJZZDO6">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000000111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNVYJZZDO6.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNUEQXKTB7">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="3"/>
+        <generic name="BITPATTERN" value="110"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNUEQXKTB7.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNFJXS55VN">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000001000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNFJXS55VN.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNCIHUZ7LK">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="3"/>
+        <generic name="BITPATTERN" value="000"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNCIHUZ7LK.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN7YIUCNFV">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="10"/>
+        <generic name="BITPATTERN" value="0000000110"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN7YIUCNFV.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GN6SFEINY6">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="2"/>
+        <generic name="BITPATTERN" value="00"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(2-1 downto 0)" width="2" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GN6SFEINY6.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_constant_GNUTAAMD7E">
+        <generic name="HDLTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="WIDTH" value="24"/>
+        <generic name="BITPATTERN" value="000111000111000111000111"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_constant_GNUTAAMD7E.vhd"/>
+    </instance>
+    <parameter-static name="HDLTYPE" default="STD_LOGIC_VECTOR" type="STRING"/>
+    <parameter-static name="WIDTH" default="4" type="NATURAL"/>
+    <parameter-static name="BITPATTERN" default="0000" type="STRING"/>
+</jvgen>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_gain" family="Cyclone" style="COMPLEX"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_gain_GNIIRYXGEV">
+        <generic name="LPM" value="0"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="PIPELINE" value="3"/>
+        <generic name="GAIN" value="0110"/>
+        <generic name="INPUTWIDTH" value="9"/>
+        <port name="Input" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="Output" dir="Output"
+            vhdl-type="std_logic_vector(13-1 downto 0)" width="13" lowerbound="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_gain_GNIIRYXGEV.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_BEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_nBEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_CST_MULT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_gain_GNBM7YKIKA">
+        <generic name="LPM" value="0"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="PIPELINE" value="5"/>
+        <generic name="GAIN" value="011000"/>
+        <generic name="INPUTWIDTH" value="9"/>
+        <port name="Input" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="Output" dir="Output"
+            vhdl-type="std_logic_vector(15-1 downto 0)" width="15" lowerbound="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_gain_GNBM7YKIKA.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_BEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_nBEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_CST_MULT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_gain_GNVY67KVH4">
+        <generic name="LPM" value="0"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="PIPELINE" value="6"/>
+        <generic name="GAIN" value="0100100"/>
+        <generic name="INPUTWIDTH" value="9"/>
+        <port name="Input" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="Output" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_gain_GNVY67KVH4.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_BEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_nBEXT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_CST_MULT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <parameter-static name="LPM" default="0" type="NATURAL"/>
+    <parameter-static name="MASKVALUE" default="1" type="STRING"/>
+    <parameter-static name="PIPELINE" default="0" type="NATURAL"/>
+    <parameter-static name="GAIN" default="00000001" type="STRING"/>
+    <parameter-static name="INPUTWIDTH" default="8" type="NATURAL"/>
+</jvgen>

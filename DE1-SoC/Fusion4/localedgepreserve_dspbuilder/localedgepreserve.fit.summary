@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Apr 30 10:25:22 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : localedgepreserve
+Top-level Entity Name : localedgepreserve
+Family : Cyclone V
+Device : 5CGXFC7C7F23C8
+Timing Models : Final
+Logic utilization (in ALMs) : 3,162 / 56,480 ( 6 % )
+Total registers : 8572
+Total pins : 50 / 268 ( 19 % )
+Total virtual pins : 0
+Total block memory bits : 236,664 / 7,024,640 ( 3 % )
+Total RAM Blocks : 63 / 686 ( 9 % )
+Total DSP Blocks : 33 / 156 ( 21 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 0 / 13 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,70 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst de2i_150_qsys.pcie_ip -pg 1 -lvl 2 -y 1020
+preplace inst de2i_150_qsys.dma_read_master -pg 1 -lvl 3 -y 330
+preplace inst de2i_150_qsys.clk_50 -pg 1 -lvl 2 -y 450
+preplace inst de2i_150_qsys.pcie_ip.avalon_clk -pg 1
+preplace inst de2i_150_qsys.pcie_ip.pcie_internal_hip -pg 1
+preplace inst de2i_150_qsys.modular_sgdma_dispatcher -pg 1 -lvl 5 -y 750
+preplace inst de2i_150_qsys.video_dma1_read -pg 1 -lvl 4 -y 50
+preplace inst de2i_150_qsys.pcie_ip.avalon_reset -pg 1
+preplace inst de2i_150_qsys.pcie_ip.pipe_interface_internal -pg 1
+preplace inst de2i_150_qsys.video_dma_write -pg 1 -lvl 9 -y 390
+preplace inst de2i_150_qsys.image_fusion -pg 1 -lvl 7 -y 260
+preplace inst de2i_150_qsys.alt_vip_vfr_0 -pg 1 -lvl 1 -y 470
+preplace inst de2i_150_qsys.pcie_ip.cal_blk_clk -pg 1
+preplace inst de2i_150_qsys.dma_write_master -pg 1 -lvl 4 -y 320
+preplace inst de2i_150_qsys.alt_vip_itc_0 -pg 1 -lvl 3 -y 690
+preplace inst de2i_150_qsys.image_padding -pg 1 -lvl 6 -y 50
+preplace inst de2i_150_qsys.buffer_write -pg 1 -lvl 8 -y 240
+preplace inst de2i_150_qsys.buffer1_read -pg 1 -lvl 5 -y 30
+preplace inst de2i_150_qsys.video_dma2_read -pg 1 -lvl 4 -y 170
+preplace inst de2i_150_qsys.buffer2_read -pg 1 -lvl 5 -y 300
+preplace inst de2i_150_qsys.altpll_qsys -pg 1 -lvl 3 -y 500
+preplace inst de2i_150_qsys.sdram -pg 1 -lvl 3 -y 920
+preplace inst de2i_150_qsys.pcie_ip.refclk_conduit -pg 1
+preplace inst de2i_150_qsys.pcie_ip.altgx_internal -pg 1
+preplace inst de2i_150_qsys.pcie_ip.pcie_rstn_conduit -pg 1
+preplace inst de2i_150_qsys.pcie_ip.test_in_conduit -pg 1
+preplace inst de2i_150_qsys.pcie_ip.reset_controller_internal -pg 1
+preplace inst de2i_150_qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc FAN_OUT<net_container>de2i_150_qsys</net_container>(SLAVE)image_padding.clk,(MASTER)altpll_qsys.c0,(SLAVE)video_dma2_read.clk,(SLAVE)alt_vip_vfr_0.clock_reset,(SLAVE)buffer2_read.clk,(SLAVE)alt_vip_vfr_0.clock_master,(SLAVE)buffer1_read.clk,(SLAVE)video_dma_write.clk,(SLAVE)image_fusion.clock,(SLAVE)video_dma1_read.clk,(SLAVE)alt_vip_itc_0.is_clk_rst,(SLAVE)sdram.clk,(SLAVE)buffer_write.clk) 1 0 9 230 660 NJ 660 1180 490 1520 140 1980 120 2410 140 2650 370 2810 470 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.refclk,(SLAVE)de2i_150_qsys.pcie_ip_refclk) 1 0 2 NJ 1280 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)video_dma2_read.avalon_pixel_source,(SLAVE)buffer2_read.in) 1 4 1 2020
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)alt_vip_itc_0.din,(MASTER)alt_vip_vfr_0.avalon_streaming_source) 1 1 2 NJ 540 1100
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)dma_read_master.Data_Source,(SLAVE)dma_write_master.Data_Sink) 1 3 1 1580
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.rx_in,(SLAVE)de2i_150_qsys.pcie_ip_rx_in) 1 0 2 NJ 1300 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.pipe_ext,(SLAVE)de2i_150_qsys.pcie_ip_pipe_ext) 1 0 2 NJ 1150 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)video_dma1_read.avalon_pixel_source,(SLAVE)buffer1_read.in) 1 4 1 N
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)de2i_150_qsys.alt_vip_itc_0_clocked_video,(SLAVE)alt_vip_itc_0.clocked_video) 1 0 3 NJ 700 NJ 700 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)image_fusion.source,(SLAVE)buffer_write.in) 1 7 1 N
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)modular_sgdma_dispatcher.Write_Response_Sink,(MASTER)dma_write_master.Response_Source) 1 4 1 1980
+preplace netloc INTERCONNECT<net_container>de2i_150_qsys</net_container>(SLAVE)sdram.s1,(MASTER)dma_read_master.Data_Read_Master,(MASTER)video_dma_write.avalon_dma_master,(MASTER)dma_write_master.Data_Write_Master,(SLAVE)pcie_ip.txs,(MASTER)alt_vip_vfr_0.avalon_master,(MASTER)video_dma1_read.avalon_dma_master,(MASTER)video_dma2_read.avalon_dma_master) 1 1 9 570 900 1200 860 1540 430 1960 410 NJ 410 NJ 410 NJ 380 NJ 380 3310
+preplace netloc FAN_OUT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.reconfig_gxbclk,(MASTER)altpll_qsys.c3,(SLAVE)pcie_ip.cal_blk_clk) 1 1 3 590 840 NJ 840 1480
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)modular_sgdma_dispatcher.csr_irq,(MASTER)pcie_ip.rxm_irq) 1 2 3 NJ 1230 NJ 1230 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)modular_sgdma_dispatcher.Read_Command_Source,(SLAVE)dma_read_master.Command_Sink) 1 2 4 1220 880 NJ 740 NJ 740 2410
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.reconfig_togxb,(SLAVE)de2i_150_qsys.pcie_ip_reconfig_togxb) 1 0 2 NJ 1260 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)de2i_150_qsys.pcie_ip_pcie_rstn,(SLAVE)pcie_ip.pcie_rstn) 1 0 2 NJ 1130 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(MASTER)de2i_150_qsys.altpll_vga,(MASTER)altpll_qsys.c2) 1 3 7 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ
+preplace netloc FAN_OUT<net_container>de2i_150_qsys</net_container>(SLAVE)video_dma1_read.avalon_dma_control_slave,(SLAVE)video_dma_write.avalon_dma_control_slave,(SLAVE)video_dma2_read.avalon_dma_control_slave,(SLAVE)alt_vip_vfr_0.avalon_slave,(MASTER)pcie_ip.bar1_0) 1 0 9 210 620 NJ 620 1060 630 1500 450 NJ 450 NJ 450 NJ 450 NJ 450 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.clocks_sim,(SLAVE)de2i_150_qsys.pcie_ip_clocks_sim) 1 0 2 NJ 1050 NJ
+preplace netloc FAN_OUT<net_container>de2i_150_qsys</net_container>(SLAVE)modular_sgdma_dispatcher.clock,(SLAVE)dma_write_master.Clock,(MASTER)pcie_ip.pcie_core_clk,(SLAVE)dma_read_master.Clock,(SLAVE)pcie_ip.fixedclk) 1 1 4 630 980 1080 800 1620 720 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)image_padding.avalon_clipper_sink,(MASTER)buffer1_read.out) 1 5 1 N
+preplace netloc INTERCONNECT<net_container>de2i_150_qsys</net_container>(SLAVE)image_padding.reset,(SLAVE)alt_vip_vfr_0.clock_master_reset,(SLAVE)image_fusion.reset,(SLAVE)alt_vip_itc_0.is_clk_rst_reset,(SLAVE)video_dma_write.reset,(SLAVE)dma_read_master.Clock_reset,(SLAVE)modular_sgdma_dispatcher.clock_reset,(SLAVE)alt_vip_vfr_0.clock_reset_reset,(SLAVE)video_dma2_read.reset,(SLAVE)buffer1_read.clk_reset,(MASTER)pcie_ip.pcie_core_reset,(SLAVE)sdram.reset,(SLAVE)altpll_qsys.inclk_interface_reset,(SLAVE)dma_write_master.Clock_reset,(SLAVE)buffer_write.clk_reset,(SLAVE)buffer2_read.clk_reset,(SLAVE)video_dma1_read.reset,(MASTER)clk_50.clk_reset) 1 0 9 250 680 NJ 680 1140 320 1600 160 2040 140 2390 160 2630 390 2830 490 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)altpll_qsys.inclk_interface,(MASTER)clk_50.clk) 1 2 1 1160
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)de2i_150_qsys.pcie_ip_reconfig_fromgxb_0,(SLAVE)pcie_ip.reconfig_fromgxb_0) 1 0 2 NJ 1240 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)dma_write_master.Command_Sink,(MASTER)modular_sgdma_dispatcher.Write_Command_Source) 1 3 3 1640 920 NJ 920 2410
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.reconfig_busy,(SLAVE)de2i_150_qsys.pcie_ip_reconfig_busy) 1 0 2 NJ 1190 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.test_in,(SLAVE)de2i_150_qsys.pcie_ip_test_in) 1 0 2 NJ 1320 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)buffer_write.out,(SLAVE)video_dma_write.avalon_dma_sink) 1 8 1 3040
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)image_padding.avalon_clipper_source,(SLAVE)image_fusion.sink1) 1 6 1 2670
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)clk_50.clk_in_reset,(SLAVE)de2i_150_qsys.reset) 1 0 2 NJ 450 NJ
+preplace netloc FAN_OUT<net_container>de2i_150_qsys</net_container>(SLAVE)pcie_ip.cra,(MASTER)pcie_ip.bar2,(SLAVE)modular_sgdma_dispatcher.CSR,(SLAVE)modular_sgdma_dispatcher.Descriptor_Slave) 1 1 4 610 960 1100 820 NJ 880 2000
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)sdram.wire,(SLAVE)de2i_150_qsys.sdram) 1 0 3 NJ 920 NJ 920 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)de2i_150_qsys.pcie_ip_tx_out,(SLAVE)pcie_ip.tx_out) 1 0 2 NJ 1380 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(MASTER)dma_read_master.Response_Source,(SLAVE)modular_sgdma_dispatcher.Read_Response_Sink) 1 3 2 1560 860 NJ
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(SLAVE)clk_50.clk_in,(SLAVE)de2i_150_qsys.clk) 1 0 2 NJ 640 NJ
+preplace netloc POINT_TO_POINT<net_container>de2i_150_qsys</net_container>(SLAVE)image_fusion.sink2,(MASTER)buffer2_read.out) 1 5 2 NJ 330 N
+preplace netloc EXPORT<net_container>de2i_150_qsys</net_container>(MASTER)de2i_150_qsys.altpll_sdram,(MASTER)altpll_qsys.c1) 1 3 7 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ
+levelinfo -pg 1 0 180 3440
+levelinfo -hier de2i_150_qsys 190 280 880 1270 1670 2110 2440 2700 2880 3070 3330

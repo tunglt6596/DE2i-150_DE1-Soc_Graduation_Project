@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Wed May 29 12:40:45 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : gaussian_ip
+Top-level Entity Name : gaussian_ip
+Family : Cyclone IV GX
+Total logic elements : 3,389
+    Total combinational functions : 2,391
+    Dedicated logic registers : 3,035
+Total registers : 3035
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 292,472
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_comparator" family="Cyclone"
+    style="SUPERSET" fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_comparator_GN">
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="result" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_comparator_GN.vhd"/>
+    </instance>
+    <supersetport name="result" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="datab" dir="Input"
+        vhdl-type="std_logic_vector(lpm_width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="dataa" dir="Input"
+        vhdl-type="std_logic_vector(lpm_width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="OPERATOR" default="Altaeb" type="STRING"/>
+    <parameter-static name="LPM_WIDTH" default="8" type="NATURAL"/>
+</jvgen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+ <!--  date: 2019.05.26.16:44:31 -->
+ <component
+   name="localedgepreserve"
+   file="localedgepreserve.mdl"
+   displayName="localedgepreserve"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder 7.1 Components"
+   factory="DSPBuilderFactory" />
+ <component
+   name="localedgepreserve_Interface"
+   file="localedgepreserve.mdl"
+   displayName="localedgepreserve_Interface"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder Systems"
+   factory="DSPBuilderFactory" />
+ <component
+   name="div_import"
+   file="DSPBuilder_localedgepreserve_import/div_import.entityimport"
+   displayName="div_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+ <component
+   name="dual_port_ram_sync2_import"
+   file="DSPBuilder_localedgepreserve_import/dual_port_ram_sync2_import.entityimport"
+   displayName="dual_port_ram_sync2_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+ <component
+   name="dual_port_ram_sync_import"
+   file="DSPBuilder_localedgepreserve_import/dual_port_ram_sync_import.entityimport"
+   displayName="dual_port_ram_sync_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+</library>

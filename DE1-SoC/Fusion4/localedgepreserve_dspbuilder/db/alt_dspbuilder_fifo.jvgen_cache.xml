@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_fifo" family="Cyclone" style="COMPLEX"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_fifo_GNVYF2VJ4Q">
+        <generic name="WIDTH" value="9"/>
+        <generic name="NUMWORDS" value="1024"/>
+        <generic name="SHOWAHEAD_MODE" value="0"/>
+        <generic name="USE_EAB" value="1"/>
+        <generic name="FAMILY" value="Cyclone V"/>
+        <generic name="RAM_BLOCK_TYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="empty" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="full" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="rdreq" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="usedw" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="wrreq" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_fifo_GNVYF2VJ4Q.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sCFifoAltr.vhd"/>
+    </instance>
+    <parameter-static name="WIDTH" default="8" type="POSITIVE"/>
+    <parameter-static name="NUMWORDS" default="64" type="POSITIVE"/>
+    <parameter-static name="SHOWAHEAD_MODE" default="0" type="NATURAL"/>
+    <parameter-static name="USE_EAB" default="1" type="NATURAL"/>
+    <parameter-static name="FAMILY" default="Stratix" type="STRING"/>
+    <parameter-static name="RAM_BLOCK_TYPE" default="AUTO" type="STRING"/>
+</jvgen>

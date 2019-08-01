@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "source_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "source_eop",
+					"strict" : false
+				},
+				{
+					"name" : "source_sop",
+					"strict" : false
+				},
+				{
+					"name" : "source_valid",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_valid",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_valid",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_eop",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_eop",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sink1_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sink2_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_eop",
+					"strict" : false
+				},
+				{
+					"name" : "sink_valid",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

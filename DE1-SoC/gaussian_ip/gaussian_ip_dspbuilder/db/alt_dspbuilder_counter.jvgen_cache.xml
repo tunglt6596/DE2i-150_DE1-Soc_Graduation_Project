@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_counter" family="Cyclone" style="SUPERSET"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GN2NX2BYYS">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="656"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GN2NX2BYYS.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GN23RXZ44L">
+        <generic name="WIDTH" value="5"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="31"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="false"/>
+        <generic name="USE_SSET" value="true"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(5-1 downto 0)" width="5" lowerbound="0"/>
+        <port name="sset" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GN23RXZ44L.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GNG6VDU3DQ">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="496"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="0"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNG6VDU3DQ.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GNTJQADYIY">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="668"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNTJQADYIY.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GNM3WCOF3H">
+        <generic name="WIDTH" value="5"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="30"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="false"/>
+        <generic name="USE_SSET" value="true"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(5-1 downto 0)" width="5" lowerbound="0"/>
+        <port name="sset" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNM3WCOF3H.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GNWVP6756U">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="508"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="0"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNWVP6756U.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GN6FXRTDGM">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="664"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GN6FXRTDGM.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_counter_GNSGWKEVBY">
+        <generic name="WIDTH" value="10"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="504"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="0"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNSGWKEVBY.vhd"/>
+    </instance>
+    <supersetport name="sclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="data" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cout" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="user_aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cin" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aset" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aload" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cnt_ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="q" dir="Output"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sset" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sload" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="direction" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="WIDTH" default="8" type="NATURAL"/>
+    <parameter-static name="NDIRECTION" default="1" type="NATURAL"/>
+    <parameter-static name="MODULUS" default="256" type="INTEGER"/>
+    <parameter-static name="AVALUE" default="0" type="STRING"/>
+    <parameter-static name="SVALUE" default="0" type="STRING"/>
+    <parameter-static name="USE_ENA" default="false" type="STRING"/>
+    <parameter-static name="USE_CNT_ENA" default="false" type="STRING"/>
+    <parameter-static name="USE_CIN" default="false" type="STRING"/>
+    <parameter-static name="USE_USR_ACLR" default="false" type="STRING"/>
+    <parameter-static name="USE_ASET" default="false" type="STRING"/>
+    <parameter-static name="USE_ALOAD" default="false" type="STRING"/>
+    <parameter-static name="USE_SCLR" default="false" type="STRING"/>
+    <parameter-static name="USE_SSET" default="false" type="STRING"/>
+    <parameter-static name="USE_SLOAD" default="false" type="STRING"/>
+    <parameter-static name="USE_COUT" default="false" type="STRING"/>
+</jvgen>

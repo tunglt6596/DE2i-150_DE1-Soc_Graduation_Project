@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Wed May 29 11:33:53 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : localedgepreserve
+Top-level Entity Name : localedgepreserve
+Family : Cyclone IV GX
+Total logic elements : 11,852
+    Total combinational functions : 8,420
+    Dedicated logic registers : 8,207
+Total registers : 8207
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 365,788
+Embedded Multiplier 9-bit elements : 104
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Apr 30 10:11:17 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : gaussian_ip
+Top-level Entity Name : gaussian_ip
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 2892
+Total pins : 38
+Total virtual pins : 0
+Total block memory bits : 229,841
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

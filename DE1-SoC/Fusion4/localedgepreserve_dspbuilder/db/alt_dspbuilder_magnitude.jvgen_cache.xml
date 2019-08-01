@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_magnitude" family="Cyclone" style="SUPERSET"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_magnitude_GNBHL4WGDH">
+        <generic name="WIDTH" value="13"/>
+        <port name="data" dir="Input"
+            vhdl-type="std_logic_vector(13-1 downto 0)" width="13" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(14-1 downto 0)" width="14" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_magnitude_GNBHL4WGDH.vhd"/>
+    </instance>
+    <supersetport name="result" dir="Output"
+        vhdl-type="std_logic_vector(width+1-1 downto 0)" lowerbound="0"/>
+    <supersetport name="data" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <parameter-static name="WIDTH" default="1" type="NATURAL"/>
+</jvgen>

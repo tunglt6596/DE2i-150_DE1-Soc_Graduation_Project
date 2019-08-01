@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sink_ready2",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "source_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "source_eop",
+					"strict" : false
+				},
+				{
+					"name" : "source_sop",
+					"strict" : false
+				},
+				{
+					"name" : "source_valid",
+					"strict" : false
+				},
+				{
+					"name" : "sink_valid1",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "sink_eop1",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sink_data1[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

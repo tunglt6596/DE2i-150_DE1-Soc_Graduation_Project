@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_round" family="Cyclone" style="COMPLEX"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_round_GNDZO35HDL">
+        <generic name="IN_WIDTH_G" value="24"/>
+        <generic name="OUT_WIDTH_G" value="8"/>
+        <generic name="PIPELINE_G" value="0"/>
+        <generic name="SIGNED_G" value="0"/>
+        <generic name="ROUNDING_TYPE_G" value="ROUND_UP"/>
+        <port name="clk" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="datain" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="dataout" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="reset" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_round_GNDZO35HDL.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_round_GNWBUVGWWO">
+        <generic name="IN_WIDTH_G" value="26"/>
+        <generic name="OUT_WIDTH_G" value="8"/>
+        <generic name="PIPELINE_G" value="0"/>
+        <generic name="SIGNED_G" value="0"/>
+        <generic name="ROUNDING_TYPE_G" value="ROUND_UP"/>
+        <port name="clk" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="datain" dir="Input"
+            vhdl-type="std_logic_vector(26-1 downto 0)" width="26" lowerbound="0"/>
+        <port name="dataout" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="reset" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_round_GNWBUVGWWO.vhd"/>
+    </instance>
+    <parameter-static name="IN_WIDTH_G" default="8" type="NATURAL"/>
+    <parameter-static name="OUT_WIDTH_G" default="6" type="NATURAL"/>
+    <parameter-static name="PIPELINE_G" default="0" type="NATURAL"/>
+    <parameter-static name="SIGNED_G" default="1" type="NATURAL"/>
+    <parameter-static name="ROUNDING_TYPE_G" default="TRUNCATE_LOW" type="STRING"/>
+</jvgen>

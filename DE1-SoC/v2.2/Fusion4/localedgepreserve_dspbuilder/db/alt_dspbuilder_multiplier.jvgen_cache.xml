@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_multiplier" family="Cyclone"
+    style="SUPERSET" fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNSFKO7633">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="31"/>
+        <generic name="OUTPUTLSB" value="8"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="17"/>
+        <generic name="BWIDTH" value="16"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNSFKO7633.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GN64HZKYCA">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="15"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="8"/>
+        <generic name="BWIDTH" value="8"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GN64HZKYCA.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GN2GJCFTFE">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="58"/>
+        <generic name="OUTPUTLSB" value="24"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="35"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(35-1 downto 0)" width="35" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(35-1 downto 0)" width="35" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GN2GJCFTFE.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNKTEWW72G">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="23"/>
+        <generic name="OUTPUTLSB" value="8"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="16"/>
+        <generic name="BWIDTH" value="8"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNKTEWW72G.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNUSAT2VBO">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="23"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="16"/>
+        <generic name="BWIDTH" value="8"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNUSAT2VBO.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNXX7E2RLJ">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="31"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="32"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNXX7E2RLJ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNWZAKUPA4">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="63"/>
+        <generic name="OUTPUTLSB" value="24"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="32"/>
+        <generic name="BWIDTH" value="32"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(40-1 downto 0)" width="40" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNWZAKUPA4.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNT7YVH2RY">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="39"/>
+        <generic name="OUTPUTLSB" value="24"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="20"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(20-1 downto 0)" width="20" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNT7YVH2RY.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GN4OQUTWTO">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="31"/>
+        <generic name="OUTPUTLSB" value="24"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="12"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GN4OQUTWTO.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GN4LMOW2WU">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="34"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="15"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(15-1 downto 0)" width="15" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(35-1 downto 0)" width="35" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GN4LMOW2WU.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GNYACTWEAF">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="39"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="20"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(20-1 downto 0)" width="20" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(40-1 downto 0)" width="40" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GNYACTWEAF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_multiplier_GN2RACAKCQ">
+        <generic name="DEDICATED_MULTIPLIER_CIRCUITRY" value="YES"/>
+        <generic name="PIPELINE" value="1"/>
+        <generic name="OUTPUTMSB" value="31"/>
+        <generic name="OUTPUTLSB" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="AWIDTH" value="12"/>
+        <generic name="BWIDTH" value="24"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_multiplier_GN2RACAKCQ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sMultAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AltMultConst.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAdd.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_MultAddMF.vhd"/>
+    </instance>
+    <supersetport name="result" dir="Output"
+        vhdl-type="std_logic_vector(OutputMsb-OutputLsb+1-1 downto 0)" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="datab" dir="Input"
+        vhdl-type="std_logic_vector(bWidth-1 downto 0)" lowerbound="0"/>
+    <supersetport name="dataa" dir="Input"
+        vhdl-type="std_logic_vector(aWidth-1 downto 0)" lowerbound="0"/>
+    <supersetport name="user_aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="DEDICATED_MULTIPLIER_CIRCUITRY"
+        default="AUTO" type="STRING"/>
+    <parameter-static name="PIPELINE" default="0" type="INTEGER"/>
+    <parameter-static name="OUTPUTMSB" default="8" type="INTEGER"/>
+    <parameter-static name="OUTPUTLSB" default="0" type="INTEGER"/>
+    <parameter-static name="SIGNED" default="0" type="NATURAL"/>
+    <parameter-static name="AWIDTH" default="8" type="NATURAL"/>
+    <parameter-static name="BWIDTH" default="8" type="NATURAL"/>
+</jvgen>

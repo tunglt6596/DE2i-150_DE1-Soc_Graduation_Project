@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="dual_port_ram_sync_import" family="Cyclone"
+    style="SUPERSET" fixed-name="true" temporary="false">
+    <instance version="8.0.0" decorated-name="dual_port_ram_sync_import_GN">
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="read_address" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="we" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="write_address" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+    </instance>
+    <source-file
+        name="C:\Users\TungLT\Desktop\DE1-SoC\v2.2\Fusion4\DSPBuilder_localedgepreserve_import\dual_port_ram_sync_import.entityimport" stamp="1552034599826"/>
+    <supersetport name="q" dir="Output"
+        vhdl-type="std_logic_vector(16-1 downto 0)" lowerbound="0"/>
+    <supersetport name="data" dir="Input"
+        vhdl-type="std_logic_vector(16-1 downto 0)" lowerbound="0"/>
+    <supersetport name="read_address" dir="Input"
+        vhdl-type="std_logic_vector(8-1 downto 0)" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="write_address" dir="Input"
+        vhdl-type="std_logic_vector(8-1 downto 0)" lowerbound="0"/>
+    <supersetport name="we" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+</jvgen>

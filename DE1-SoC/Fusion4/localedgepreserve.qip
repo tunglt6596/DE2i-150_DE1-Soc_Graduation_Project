@@ -1,0 +1,18 @@
+
+#QIP file for DSP Builder system localedgepreserve
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "localedgepreserve_dspbuilder/hdl" ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "localedgepreserve_dspbuilder/hdl/localedgepreserve.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/div.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync2.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/StateMachineEditor.qip" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/div_add.tcl" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync2_add.tcl" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync_add.tcl" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/StateMachineEditor_add.tcl" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/div_import.entityimport" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync2_import.entityimport" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_localedgepreserve_import/dual_port_ram_sync_import.entityimport" ]

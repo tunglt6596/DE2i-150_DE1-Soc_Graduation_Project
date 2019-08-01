@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_parallel_adder" family="Cyclone"
+    style="COMPLEX" fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_parallel_adder_GNNQ3FWLTP">
+        <generic name="PIPELINE" value="1"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="DIRECTION" value="+"/>
+        <generic name="DATAWIDTH" value="10"/>
+        <generic name="NUMBER_INPUTS" value="6"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data0" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="data1" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="data2" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="data3" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="data4" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="data5" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(13-1 downto 0)" width="13" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_parallel_adder_GNNQ3FWLTP.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SAdderSub.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_parallel_adder_GNRITCUGPT">
+        <generic name="PIPELINE" value="1"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="DIRECTION" value="+"/>
+        <generic name="DATAWIDTH" value="17"/>
+        <generic name="NUMBER_INPUTS" value="9"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data0" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data1" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data2" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data3" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data4" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data5" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data6" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data7" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="data8" dir="Input"
+            vhdl-type="std_logic_vector(17-1 downto 0)" width="17" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(21-1 downto 0)" width="21" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_parallel_adder_GNRITCUGPT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SAdderSub.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_parallel_adder_GNDV6TKE3O">
+        <generic name="PIPELINE" value="1"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="DIRECTION" value="+"/>
+        <generic name="DATAWIDTH" value="12"/>
+        <generic name="NUMBER_INPUTS" value="9"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data0" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data1" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data2" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data3" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data4" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data5" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data6" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data7" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="data8" dir="Input"
+            vhdl-type="std_logic_vector(12-1 downto 0)" width="12" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_parallel_adder_GNDV6TKE3O.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SAdderSub.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_parallel_adder_GNEEONFX37">
+        <generic name="PIPELINE" value="1"/>
+        <generic name="MASKVALUE" value="1"/>
+        <generic name="DIRECTION" value="+"/>
+        <generic name="DATAWIDTH" value="9"/>
+        <generic name="NUMBER_INPUTS" value="9"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data0" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data1" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data2" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data3" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data4" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data5" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data6" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data7" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="data8" dir="Input"
+            vhdl-type="std_logic_vector(9-1 downto 0)" width="9" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(13-1 downto 0)" width="13" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_parallel_adder_GNEEONFX37.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SAdderSub.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrBitPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_vecseq.vhd"/>
+    </instance>
+    <parameter-static name="PIPELINE" default="0" type="NATURAL"/>
+    <parameter-static name="MASKVALUE" default="1" type="STRING"/>
+    <parameter-static name="DIRECTION" default="+" type="STRING"/>
+    <parameter-static name="DATAWIDTH" default="8" type="POSITIVE"/>
+    <parameter-static name="NUMBER_INPUTS" default="2" type="POSITIVE"/>
+</jvgen>

@@ -1,0 +1,124 @@
+Flow report for localedgepreserve
+Sat May 25 11:42:46 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++---------------------------------+-------------------------------------------------+
+; Flow Status                     ; Successful - Sat May 25 11:42:46 2019           ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Standard Edition ;
+; Revision Name                   ; localedgepreserve                               ;
+; Top-level Entity Name           ; localedgepreserve                               ;
+; Family                          ; Cyclone V                                       ;
+; Device                          ; 5CGXFC7C7F23C8                                  ;
+; Timing Models                   ; Final                                           ;
+; Logic utilization (in ALMs)     ; 3,210 / 56,480 ( 6 % )                          ;
+; Total registers                 ; 8530                                            ;
+; Total pins                      ; 38 / 268 ( 14 % )                               ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 255,096 / 7,024,640 ( 4 % )                     ;
+; Total DSP Blocks                ; 33 / 156 ( 21 % )                               ;
+; Total HSSI RX PCSs              ; 0 / 6 ( 0 % )                                   ;
+; Total HSSI PMA RX Deserializers ; 0 / 6 ( 0 % )                                   ;
+; Total HSSI TX PCSs              ; 0 / 6 ( 0 % )                                   ;
+; Total HSSI PMA TX Serializers   ; 0 / 6 ( 0 % )                                   ;
+; Total PLLs                      ; 0 / 13 ( 0 % )                                  ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
++---------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/25/2019 11:34:27 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; localedgepreserve   ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                            ;
++-----------------------+------------------------------------------+---------------+-------------+------------+
+; Assignment Name       ; Value                                    ; Default Value ; Entity Name ; Section Id ;
++-----------------------+------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID ; 738759708294.155875886705368             ; --            ; --          ; --         ;
+; ENABLE_SIGNALTAP      ; Off                                      ; --            ; --          ; --         ;
+; SEARCH_PATH           ; ../.                                     ; --            ; --          ; --         ;
+; SEARCH_PATH           ; ../localedgepreserve_dspbuilder/hdl      ; --            ; --          ; --         ;
+; SEARCH_PATH           ; ../DSPBuilder_localedgepreserve_import   ; --            ; --          ; --         ;
+; SEARCH_PATH           ; ../DSPBuilder_localedgepreserve_import/. ; --            ; --          ; --         ;
++-----------------------+------------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:02:25     ; 1.0                     ; 1135 MB             ; 00:02:01                           ;
+; Fitter                    ; 00:04:17     ; 1.1                     ; 2513 MB             ; 00:06:29                           ;
+; TimeQuest Timing Analyzer ; 00:00:47     ; 1.6                     ; 1278 MB             ; 00:01:07                           ;
+; Assembler                 ; 00:00:24     ; 1.0                     ; 818 MB              ; 00:00:24                           ;
+; Total                     ; 00:07:53     ; --                      ; --                  ; 00:10:01                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++---------------------------+------------------+-------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
++---------------------------+------------------+-------------+------------+----------------+
+; Analysis & Synthesis      ; Tung             ; Windows 8.1 ; 6.3        ; x86_64         ;
+; Fitter                    ; Tung             ; Windows 8.1 ; 6.3        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Tung             ; Windows 8.1 ; 6.3        ; x86_64         ;
+; Assembler                 ; Tung             ; Windows 8.1 ; 6.3        ; x86_64         ;
++---------------------------+------------------+-------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map localedgepreserve
+quartus_fit localedgepreserve
+quartus_sta localedgepreserve
+quartus_asm localedgepreserve
+
+
+

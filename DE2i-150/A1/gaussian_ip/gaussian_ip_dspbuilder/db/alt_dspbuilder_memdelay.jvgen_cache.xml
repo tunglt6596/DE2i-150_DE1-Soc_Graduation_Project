@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_memdelay" family="Cyclone" style="SUPERSET"
+    fixed-name="false" temporary="false">
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GN7KC3ZSDB">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="1"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GN7KC3ZSDB.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNR55NYJWV">
+        <generic name="WIDTH" value="1"/>
+        <generic name="DELAY" value="2"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(1-1 downto 0)" width="1" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(1-1 downto 0)" width="1" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNR55NYJWV.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNT3M75IMA">
+        <generic name="WIDTH" value="10"/>
+        <generic name="DELAY" value="1"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNT3M75IMA.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNWC3A6ZFD">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="5286"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNWC3A6ZFD.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNXMJOJMJV">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="2"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNXMJOJMJV.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNMKBYCW7B">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="2690"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNMKBYCW7B.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNOQUXON7R">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="27"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNOQUXON7R.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNE2RSMKSX">
+        <generic name="WIDTH" value="10"/>
+        <generic name="DELAY" value="5285"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNE2RSMKSX.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNOSZN6L7S">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="2608"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNOSZN6L7S.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNGGI56XG4">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="664"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNGGI56XG4.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GN7N5V3HY7">
+        <generic name="WIDTH" value="10"/>
+        <generic name="DELAY" value="2689"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(10-1 downto 0)" width="10" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GN7N5V3HY7.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <instance version="17.1" decorated-name="alt_dspbuilder_memdelay_GNQ44RXMM7">
+        <generic name="WIDTH" value="8"/>
+        <generic name="DELAY" value="1320"/>
+        <generic name="RAMTYPE" value="AUTO"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(8-1 downto 0)" width="8" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_memdelay_GNQ44RXMM7.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SShiftTap.vhd"/>
+    </instance>
+    <supersetport name="output" dir="Output"
+        vhdl-type="std_logic_vector(WIDTH-1 downto 0)" lowerbound="0"/>
+    <supersetport name="input" dir="Input"
+        vhdl-type="std_logic_vector(WIDTH-1 downto 0)" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="user_aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="WIDTH" default="8" type="POSITIVE"/>
+    <parameter-static name="DELAY" default="1" type="POSITIVE"/>
+    <parameter-static name="RAMTYPE" default="AUTO" type="STRING"/>
+</jvgen>

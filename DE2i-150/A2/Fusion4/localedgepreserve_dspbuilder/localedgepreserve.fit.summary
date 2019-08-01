@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed May 29 11:35:59 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : localedgepreserve
+Top-level Entity Name : localedgepreserve
+Family : Cyclone IV GX
+Device : EP4CGX30CF19C6
+Timing Models : Final
+Total logic elements : 10,327 / 29,440 ( 35 % )
+    Total combinational functions : 8,421 / 29,440 ( 29 % )
+    Dedicated logic registers : 7,979 / 29,440 ( 27 % )
+Total registers : 7979
+Total pins : 56 / 167 ( 34 % )
+Total virtual pins : 0
+Total memory bits : 365,788 / 1,105,920 ( 33 % )
+Embedded Multiplier 9-bit elements : 104 / 160 ( 65 % )
+Total GXB Receiver Channel PCS : 0 / 4 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 4 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
